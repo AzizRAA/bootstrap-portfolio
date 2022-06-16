@@ -7,7 +7,17 @@ body {
 .parent-container {
     background-color: #191765;
     color: #B3BAC5;
+}
+
+.first-page-bg {
     background-image: url("img/firstpage-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.second-main {
+    background-image: url("img/second-page-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -24,6 +34,10 @@ body {
 
 hr {
    background-color: #646369 ;
+}
+
+.btn-primary {
+    background: #9390FF;
 }
 
 @media only screen and (max-width:576px) {
